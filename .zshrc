@@ -1,5 +1,7 @@
 export LANG=ja_JP.UTF-8
 
+bindkey -e
+
 alias ls='ls --color=auto'
 alias vi='vim'
 alias grep='grep --color'
