@@ -5,6 +5,8 @@
 	insteadOf = https://github.com
 [core]
 	editor = vim
+[push]
+	default = simple
 [merge]
 	tool = vimdiff
 [diff]
