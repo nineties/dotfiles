@@ -1,0 +1,11 @@
+[user]
+	name = Koichi Nakamura
+	email = koichi@idein.jp
+[url "git@github.com:"]
+	insteadOf = https://github.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
