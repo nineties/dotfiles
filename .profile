@@ -23,4 +23,5 @@ fi
 
 # golang
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
