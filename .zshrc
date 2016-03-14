@@ -63,3 +63,6 @@ function peco-select-history() {
 }
 zle -N peco-select-history
 bindkey '^r' peco-select-history
+
+export GOPATH=~/go
+export PATH=$PATH:$GOPATH/bin
