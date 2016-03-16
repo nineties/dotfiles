@@ -13,10 +13,13 @@ setopt list_packed
 setopt auto_menu
 setopt no_beep
 setopt hist_ignore_dups
-setopt hist_no_store
 setopt hist_reduce_blanks
 setopt magic_equal_subst
 setopt share_history
+
+export HISTFILE=${HOME}/.zsh_history
+export HISTSIZE=1000
+export SAVEHIST=100000
 
 PROMPT='%{[32m%}%B%n@%m%#%{[m%}%b '
 #RPROMPT='%{[32m%}%B[%d]%{[m%}%b'
