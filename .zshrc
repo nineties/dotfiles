@@ -70,3 +70,4 @@ bindkey '^r' peco-select-history
 export GOPATH=~/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$HOME/anaconda2/bin:$PATH
+export PATH=/usr/local/llvm-3.2/bin:$PATH
