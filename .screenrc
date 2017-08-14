@@ -1,0 +1,11 @@
+escape ^z^z
+vbell off
+termcapinfo xterm* ti@:te@
+hardstatus alwayslastline "[%02c] %`%-w%{=b bw}%n %t%{-}%+w"
+startup_message off
+autodetach on
+defscrollback 10240
+deflog on
+hardcopydir "$HOME/.logs/screen"
+hardcopy_append on
+logfile "$HOME/.logs/screen/hardcopy-%Y%m%d-%n.log"
